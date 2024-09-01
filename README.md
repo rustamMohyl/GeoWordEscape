@@ -1,1 +1,2 @@
 # GeoWordEscape
+GeoWord Escape is a 2D arcade game where players must evade cats, dogs, and zombies while collecting letters to form words and win. The words will be names of countries or cities. After gathering all the letters, the player needs to reach the exit and form the word to complete the level.

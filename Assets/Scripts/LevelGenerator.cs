@@ -33,7 +33,8 @@ public class LevelGenerator : MonoBehaviour
         // createLetters();
         // CreateExit();
         System.Random rnd = new System.Random();
-        currentLevel = levels.GetLevel(rnd.Next(0, levels.Count() -1 ));
+        int levelFromPreviousScene = PlayerPrefs.GetInt("Level");
+        currentLevel = levels.GetLevel(levelFromPreviousScene);
         CreateLevelStr(currentLevel.level);
     }
 

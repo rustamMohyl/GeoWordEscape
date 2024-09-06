@@ -26,6 +26,6 @@ public class GameManager : MonoBehaviour
         else{
             inventoryUI.setText("Wrong");
         }
-        Debug.Log(inventarStr + " " + cityStr);
+        //Debug.Log(inventarStr + " " + cityStr);
     }
 }
